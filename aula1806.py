@@ -1,4 +1,4 @@
-from do_it_yourself_utils import max5, average, max_price, min_price
+from aula1806_utils import max5, average, max_price, min_price
 import datetime
 # datetime.datetime("2026-12-31")
 
