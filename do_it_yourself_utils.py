@@ -1,10 +1,12 @@
 from statistics import mean
 
+# MAXIMO 5 EURO
 def max5(lista):
     for product in lista:
         if product["Product_price"] > 5:
             product["Product_price"] = 5
     return lista
+
 
 # MEDIA
 # 1
@@ -36,8 +38,6 @@ def max_price(lista):
 # def max_price(lista):
 #     return max(lista, key=lambda product: product["Product_price"])
 
-# 3
-
 
 # MIN PRECO
 # 1
@@ -51,5 +51,3 @@ def min_price(lista):
 # 2
 # def min_price(lista):
 #     return min(lista, key=lambda product: product["Product_price"])
-
-# 3
